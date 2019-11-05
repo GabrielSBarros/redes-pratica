@@ -1,0 +1,64 @@
+### 1 [DEFAULT]
+
+------------------------------------------------------------
+Client connecting to localhost, TCP port 5001
+TCP window size: 2.50 MByte (default)
+------------------------------------------------------------
+[  3] local 127.0.0.1 port 52036 connected with 127.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  35.3 GBytes  30.3 Gbits/sec
+
+### 2
+
+------------------------------------------------------------
+Client connecting to localhost, TCP port 5001
+TCP window size: 2.50 MByte (default)
+------------------------------------------------------------
+[  3] local 127.0.0.1 port 52048 connected with 127.0.0.1 port 5001
+[ 12] local 127.0.0.1 port 52046 connected with 127.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  22.3 GBytes  19.2 Gbits/sec
+[ 12]  0.0-10.0 sec  21.3 GBytes  18.3 Gbits/sec
+[SUM]  0.0-10.0 sec  43.6 GBytes  37.5 Gbits/sec
+
+### 4
+
+------------------------------------------------------------
+Client connecting to localhost, TCP port 5001
+TCP window size: 2.50 MByte (default)
+------------------------------------------------------------
+[ 12] local 127.0.0.1 port 52058 connected with 127.0.0.1 port 5001
+[ 17] local 127.0.0.1 port 52056 connected with 127.0.0.1 port 5001
+[ 13] local 127.0.0.1 port 52054 connected with 127.0.0.1 port 5001
+[  3] local 127.0.0.1 port 52052 connected with 127.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[ 12]  0.0-10.0 sec  12.0 GBytes  10.3 Gbits/sec
+[ 17]  0.0-10.0 sec  12.5 GBytes  10.8 Gbits/sec
+[ 13]  0.0-10.0 sec  12.5 GBytes  10.7 Gbits/sec
+[  3]  0.0-10.0 sec  12.0 GBytes  10.3 Gbits/sec
+[SUM]  0.0-10.0 sec  49.0 GBytes  42.1 Gbits/sec
+
+### 8
+
+------------------------------------------------------------
+Client connecting to localhost, TCP port 5001
+TCP window size: 2.50 MByte (default)
+------------------------------------------------------------
+[ 22] local 127.0.0.1 port 52076 connected with 127.0.0.1 port 5001
+[ 19] local 127.0.0.1 port 52070 connected with 127.0.0.1 port 5001
+[ 17] local 127.0.0.1 port 52072 connected with 127.0.0.1 port 5001
+[ 13] local 127.0.0.1 port 52064 connected with 127.0.0.1 port 5001
+[ 12] local 127.0.0.1 port 52066 connected with 127.0.0.1 port 5001
+[ 20] local 127.0.0.1 port 52074 connected with 127.0.0.1 port 5001
+[ 18] local 127.0.0.1 port 52068 connected with 127.0.0.1 port 5001
+[  3] local 127.0.0.1 port 52062 connected with 127.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[ 13]  0.0-10.0 sec  4.08 GBytes  3.50 Gbits/sec
+[ 20]  0.0-10.0 sec  3.95 GBytes  3.39 Gbits/sec
+[ 18]  0.0-10.0 sec  4.17 GBytes  3.58 Gbits/sec
+[  3]  0.0-10.0 sec  4.24 GBytes  3.63 Gbits/sec
+[ 22]  0.0-10.0 sec  4.41 GBytes  3.79 Gbits/sec
+[ 19]  0.0-10.0 sec  4.35 GBytes  3.73 Gbits/sec
+[ 17]  0.0-10.0 sec  4.10 GBytes  3.52 Gbits/sec
+[ 12]  0.0-10.0 sec  4.35 GBytes  3.73 Gbits/sec
+[SUM]  0.0-10.0 sec  33.7 GBytes  28.9 Gbits/sec

@@ -1,0 +1,53 @@
+##### Janela de 1
+
+WARNING: TCP window size set to 1 bytes. A small window size
+will give poor performance. See the Iperf documentation.
+------------------------------------------------------------
+Client connecting to localhost, TCP port 5001
+TCP window size: 4.50 KByte (WARNING: requested 1.00 Byte)
+------------------------------------------------------------
+[  3] local 127.0.0.1 port 51888 connected with 127.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  18.9 MBytes  15.8 Mbits/sec
+
+##### Janela de 2000
+
+WARNING: TCP window size set to 2000 bytes. A small window size
+will give poor performance. See the Iperf documentation.
+------------------------------------------------------------
+Client connecting to localhost, TCP port 5001
+TCP window size: 4.50 KByte (WARNING: requested 1.95 KByte)
+------------------------------------------------------------
+[  3] local 127.0.0.1 port 51908 connected with 127.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  21.2 MBytes  17.8 Mbits/sec
+
+##### Janela de 10000
+
+------------------------------------------------------------
+Client connecting to localhost, TCP port 5001
+TCP window size: 19.5 KByte (WARNING: requested 9.77 KByte)
+------------------------------------------------------------
+[  3] local 127.0.0.1 port 51910 connected with 127.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  19.5 MBytes  16.3 Mbits/sec
+
+##### Janela de 50000
+
+------------------------------------------------------------
+Client connecting to localhost, TCP port 5001
+TCP window size: 97.7 KByte (WARNING: requested 48.8 KByte)
+------------------------------------------------------------
+[  3] local 127.0.0.1 port 51916 connected with 127.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  7.79 GBytes  6.69 Gbits/sec
+
+##### Janela de 100000
+
+------------------------------------------------------------
+Client connecting to localhost, TCP port 5001
+TCP window size:  195 KByte (WARNING: requested 97.7 KByte)
+------------------------------------------------------------
+[  3] local 127.0.0.1 port 51920 connected with 127.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  20.6 GBytes  17.7 Gbits/sec
