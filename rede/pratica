@@ -1,0 +1,19 @@
+enable secret redes
+
+line console 0
+password redes
+login
+exit
+
+line vty 0 15
+password redes
+login
+exit
+
+service password-encryption
+
+banner motd $ Authorized Access Only! $
+
+do wr
+
+
