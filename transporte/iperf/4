@@ -1,3 +1,24 @@
+Comando: iperf -c IP_SERVIDOR -P
+Efeito: Altera o número de conexões simultâneas realizadas
+
+  As diferenças de velocidade de transferência são resultado do controle de 
+congestionamento realizado pelo TCP.
+  A velocidade de transferência individual diminui ao aumentar o número de 
+conexões, tendendo a ser igual para todas as conexões.
+  A velocidade total de transferência também varia com alteração do número de 
+conexões simultâneas:
+  Com uma única conexão: Quando a janela de congestionamento entra na fase de 
+prevenção de congestionamento só consegue crescer até uma valor por volta de 
+30 Gbits/s no tempo de 10 segundos.
+  Com mais conexões: Por existirem várias conexões simultâneas na fase de
+prevenção de congestionamento a velocidade total de transferência consegue 
+crescer mais rapidamente dentro dos 10 segundos, resultando em maiores 
+velocidades até 4 conexões simultâneas. 
+  Com 8 conexão: Por haverem muitas conexões e pouco tempo para elas ajustarem
+suas janelas de congestionamentos a velocidade total de transferência cai 
+novamente para um valor em torno de 30 Gbits/s
+ 
+
 ### 1 [DEFAULT]
 
 ------------------------------------------------------------

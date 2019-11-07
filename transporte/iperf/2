@@ -1,3 +1,10 @@
+Comando: iperf -c <IP_SERVIDOR> -w
+Efeito: Altera o tamanho da janela utilizado na conexão
+
+  Ao aumentar o tamanho da janela o servidor é capaz de enviar mais segmentos
+simultaneamente, resultando em um aumento da velocidade de transferência.
+
+
 ##### Janela de 1
 
 WARNING: TCP window size set to 1 bytes. A small window size

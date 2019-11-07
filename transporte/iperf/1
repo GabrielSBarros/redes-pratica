@@ -1,3 +1,6 @@
+Comando: iperf -c <IP_SERVIDOR>
+Efeito: Conexão com o servidor com opções default.
+
 ------------------------------------------------------------
 Client connecting to localhost, TCP port 5001
 TCP window size: 2.50 MByte (default)
@@ -7,4 +10,3 @@ TCP window size: 2.50 MByte (default)
 [  3]  0.0-10.0 sec  36.4 GBytes  31.3 Gbits/sec
 
 
-Conexão com o servidor com opções default
