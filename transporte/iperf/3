@@ -1,8 +1,8 @@
 Comando: iperf3 -c IP_SERVIDOR -M
 Efeito: Altera o tamanho máximo dos segmentos
 
-  Um tamanho máximo dos segmentos tende a obter uma maior incidência de erros
-observada pelo aumento de Cwnd que representa a contagem de erros.
+  Aumentar o tamanho máximo dos segmentos tende a obter uma maior incidência 
+de erros.
 
 
 ### Segmento maximo 100
